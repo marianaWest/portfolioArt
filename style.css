@@ -48,7 +48,7 @@ html {
 }
 
 .fullStack {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Quattrocento Sans", serif;
   text-align: center;
   font-size: 2.5rem;
   color: black;
@@ -68,7 +68,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
   border: 1px solid transparent;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Quattrocento Sans", serif;
   font-size: 1.8rem;
   padding: 0;
 }
@@ -172,9 +172,20 @@ h2 {
   margin: 0 auto;
   width: 80vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 5%;
+  border: 1px solid red;
+}
+
+.workSectionList {
+  width: 20%;
+  border: 1px solid blue;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .workSectionContent img {
