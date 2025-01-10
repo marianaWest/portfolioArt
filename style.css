@@ -10,72 +10,9 @@ html {
 .landing-page {
   width: 100vw;
   height: 100vh;
-  border: 1px solid white;
-  background: linear-gradient(
-      220deg,
-      rgba(255, 255, 0, 0.4),
-      rgba(255, 255, 255, 0.5) 10%
-    ),
-    linear-gradient(180deg, rgba(255, 255, 0, 0.4), rgba(255, 255, 255, 1) 70%);
   overflow: hidden;
 }
 
-.fade-in-image {
-  animation: fadeIn(6s);
-}
-
-.fade-in-image {
-  animation: fadeIn 6s;
-  -webkit-animation: fadeIn 6s;
-  -moz-animation: fadeIn 6s;
-  -o-animation: fadeIn 6s;
-  -ms-animation: fadeIn 6s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 .logo-name {
   margin-top: 3%;
@@ -107,16 +44,8 @@ html {
   margin: 0;
   margin-left: 1rem;
   text-align: center;
-  animation: glow 2s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
 }
 
-@keyframes glow {
-  to {
-    text-shadow: 10px 5px 10px rgba(255, 255, 0, 1);
-  }
-}
 
 .fullStack {
   font-family: "Josefin Sans", sans-serif;
@@ -139,7 +68,6 @@ html {
   flex-direction: row;
   justify-content: space-between;
   border: 1px solid transparent;
-  background-color: yellow;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
   padding: 0;
@@ -182,7 +110,6 @@ h2 {
 }
 
 .aboutSection h2 {
-  text-shadow: 5px 5px yellow;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -203,7 +130,6 @@ h2 {
   width: 30%;
   border: 1px transparent solid;
   border-radius: 50%;
-  box-shadow: 10px 10px 10px yellow;
 }
 
 .aboutSection p {
@@ -225,7 +151,6 @@ h2 {
 }
 
 .workSection h2 {
-  text-shadow: 5px 5px yellow;
   text-align: center;
   margin-bottom: 50px;
   padding-top: 15px;
@@ -247,7 +172,6 @@ h2 {
   margin: 0 auto;
   width: 80vw;
   display: flex;
-  /* flex-direction: row; */
   justify-content: center;
   flex-wrap: wrap;
   gap: 5%;
