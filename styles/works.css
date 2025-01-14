@@ -6,13 +6,11 @@
   flex-wrap: wrap;
   overflow: hidden;
   height: 80vh;
-  border: 1px solid red;
 }
 
 .worksNav {
   width: 20%;
   height: 80vh;
-  border: 1px solid blue;
   display: flex;
   /* overflow-y: scroll;
   overflow-x: hidden; */
@@ -31,6 +29,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .galleryImg {
@@ -41,7 +40,6 @@
   margin-bottom: 40px;
   width: 100%;
   object-fit: cover;
-  border: 1px solid green;
   img {
     display: block;
     height: 800px;
