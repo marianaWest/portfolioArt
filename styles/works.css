@@ -31,13 +31,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* a {
-    display: inline-block;
-    scroll-snap-align: start;
-    margin-bottom: 20px;
-    min-height: 100%;
-    border: 3px solid orange;
-  } */
 }
 
 .galleryImg {
