@@ -74,7 +74,7 @@ html {
 }
 
 .links a:hover {
-  color: white;
+  font-style: italic;
 }
 
 .stackList {
@@ -90,7 +90,8 @@ a {
 }
 
 a:hover {
-  text-shadow: 3px 3px yellow;
+  text-shadow: 3px 3px grey;
+  font-style: italic;
 }
 
 h2 {
@@ -143,13 +144,7 @@ h2 {
   margin-top: 15px;
 }
 
-.workSection {
-  width: 98vw;
-  padding-left: 2vw;
-  border: 1px solid transparent;
-  font-family: "Josefin Sans", sans-serif;
-}
-
+/* 
 .workSection h2 {
   text-align: center;
   margin-bottom: 50px;
@@ -166,8 +161,8 @@ h2 {
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   font-size: 1.5rem;
-}
-
+} */
+/* 
 .workSectionContent {
   margin: 0 auto;
   width: 80vw;
@@ -175,10 +170,10 @@ h2 {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 5%;
-  border: 1px solid red;
-}
+  border: 3px solid red;
+} */
 
-.workSectionList {
+/* .workSectionList {
   width: 20%;
   border: 1px solid blue;
   ul {
@@ -186,57 +181,13 @@ h2 {
     margin: 0;
     padding: 0;
   }
-}
-
+} */
+/* 
 .workSectionContent img {
   width: 100%;
   box-shadow: 8px 8px 8px rgb(169, 198, 207);
   border: 1px solid rgb(169, 198, 207);
-}
-.workSectionContent .sketch1 {
-  width: 40%;
-}
-
-.workSectionContent .LeonSays {
-  width: 30%;
-}
-
-.workSectionContent .mupalavra {
-  width: 30%;
-}
-
-.workSectionContent .yesOrNo {
-  width: 30%;
-}
-
-.workSectionContent .NASA {
-  width: 30%;
-}
-
-.workSectionContent .tiaBiscoiteira {
-  width: 30%;
-}
-
-.workSectionContent .fissura {
-  width: 30%;
-}
-
-.workSectionContent2Row img {
-  width: 100%;
-  box-shadow: 8px 8px 8px rgb(169, 198, 207);
-}
-
-.workSectionContent2Row .NASA {
-  width: 30%;
-}
-
-.workSectionContent2Row .tiaBiscoiteira {
-  width: 30%;
-}
-
-.workSectionContent2Row .fissura {
-  width: 30%;
-}
+} */
 
 .arrow {
   width: 80vw;
