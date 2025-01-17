@@ -20,35 +20,32 @@ html {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .logo-name p {
-  font-family: "Quattrocento Sans", serif;
-  font-size: 2rem;
-  margin: 2% 10vw;
+  font-family: "Roboto Serif", serif;
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin: 1% 10vw;
   text-align: center;
-}
-
-.logo {
-  width: 40vw;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
+  color: grey;
+  /* border: 1px solid black; */
 }
 
 .name {
-  font-family: "Quattrocento Sans", serif;
+  font-family: "Nunito Sans", serif;
   font-size: 4rem;
   width: 60rem;
   padding: 0;
   margin: 0;
   margin-left: 1rem;
   text-align: center;
+  /* border: 1px solid blue; */
 }
 
 .fullStack {
-  font-family: "Quattrocento Sans", serif;
+  font-family: "Nunito Sans", serif;
   text-align: center;
   font-size: 2.5rem;
   color: black;
@@ -61,14 +58,15 @@ html {
 }
 
 .links {
-  width: 60vw;
+  width: 40vw;
   height: 1.8rem;
+  font-weight: 200;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border: 1px solid transparent;
-  font-family: "Quattrocento Sans", serif;
+  font-family: "Roboto Serif", serif;
   font-size: 1.8rem;
   padding: 0;
 }
@@ -78,7 +76,7 @@ html {
 }
 
 .stackList {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 1.6rem;
   display: inline-block;
   padding-top: 5px;
@@ -95,7 +93,7 @@ a:hover {
 }
 
 h2 {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 2rem;
   width: 82%;
   margin: 20px auto;
@@ -135,7 +133,7 @@ h2 {
 
 .aboutSection p {
   width: 60%;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -143,51 +141,6 @@ h2 {
   display: inline-block;
   margin-top: 15px;
 }
-
-/* 
-.workSection h2 {
-  text-align: center;
-  margin-bottom: 50px;
-  padding-top: 15px;
-}
-
-.workSection h3 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1.8rem;
-  text-align: center;
-}
-
-.workSection p {
-  font-family: "Josefin Sans", sans-serif;
-  text-align: center;
-  font-size: 1.5rem;
-} */
-/* 
-.workSectionContent {
-  margin: 0 auto;
-  width: 80vw;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 5%;
-  border: 3px solid red;
-} */
-
-/* .workSectionList {
-  width: 20%;
-  border: 1px solid blue;
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-} */
-/* 
-.workSectionContent img {
-  width: 100%;
-  box-shadow: 8px 8px 8px rgb(169, 198, 207);
-  border: 1px solid rgb(169, 198, 207);
-} */
 
 .arrow {
   width: 80vw;

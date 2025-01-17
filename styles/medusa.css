@@ -5,11 +5,17 @@
   /* overflow-y: scroll;
     overflow-x: hidden; */
   flex-direction: column;
-  justify-content: center;
-  a {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: grey;
+  justify-content: space-between;
+  border: 1px solid orange;
+  .medusaList {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    a {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
   }
 }
 
