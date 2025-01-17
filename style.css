@@ -11,15 +11,17 @@ html {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .logo-name {
-  margin-top: 20%;
+  margin-top: 30%;
+  margin-left: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  width: 50%;
   /* border: 1px solid red; */
 }
 
@@ -27,20 +29,18 @@ html {
   font-family: "Roboto Serif", serif;
   font-size: 1.8rem;
   font-weight: 200;
-  margin: 1% 10vw;
-  text-align: center;
+  text-align: left;
   color: grey;
+  margin: 0;
   /* border: 1px solid black; */
 }
 
 .name {
   font-family: "Nunito Sans", serif;
   font-size: 4rem;
-  width: 60rem;
   padding: 0;
   margin: 0;
-  margin-left: 1rem;
-  text-align: center;
+  text-align: left;
   /* border: 1px solid blue; */
 }
 
@@ -59,16 +59,14 @@ html {
 
 .links {
   width: 40vw;
-  height: 1.8rem;
   font-weight: 200;
-  margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   border: 1px solid transparent;
   font-family: "Roboto Serif", serif;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   padding: 0;
+  /* border: 1px solid green; */
 }
 
 .links a:hover {
