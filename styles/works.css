@@ -1,0 +1,76 @@
+.workSection {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 2vw;
+  border: 1px solid transparent;
+  font-family: "Nunito Sans", sans-serif;
+  border: 1px solid blue;
+}
+
+.workSection h2 {
+  text-align: left;
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.workSection p {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 80vh;
+  border: 1px solid red;
+}
+
+.worksNav {
+  border: 1px solid green;
+  width: 20%;
+  height: 80vh;
+  display: flex;
+  /* overflow-y: scroll;
+  overflow-x: hidden; */
+  flex-direction: column;
+  justify-content: space-between;
+  .worksSeries {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    border: 1px solid orange;
+    a {
+      font-size: 18px;
+      margin: 8px 0 8px 0;
+    }
+  }
+}
+
+.gallery {
+  width: 78%;
+  height: 80vh;
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.galleryImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+  margin-bottom: 40px;
+  /* height: 80vh;
+  object-fit: cover; */
+  img {
+    display: block;
+    height: 500px;
+  }
+}
