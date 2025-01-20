@@ -11,51 +11,58 @@ html {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background-image: url("assets/cover.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   /* border: 1px solid green; */
 }
 
 .logo-name {
-  margin-top: 30%;
-  margin-left: 50%;
+  position: fixed;
+  bottom: 10%;
+  right: 0%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
-  width: 50%;
+  width: 40%;
+  color: rgb(183, 191, 196);
+  font-weight: 600;
   /* border: 1px solid red; */
 }
 
 .logo-name p {
   font-family: "Roboto Serif", serif;
-  font-size: 1.8rem;
-  font-weight: 200;
+  font-size: 1.6rem;
+  font-weight: 300;
   text-align: left;
-  color: grey;
+  color: rgb(183, 191, 196);
   margin: 0;
-  /* border: 1px solid black; */
+  margin-bottom: 1rem;
+  /* border: 1px solid white; */
 }
 
 .name {
   font-family: "Nunito Sans", serif;
-  font-size: 4rem;
+  font-size: 3rem;
   padding: 0;
   margin: 0;
   text-align: left;
-  /* border: 1px solid blue; */
+  /* border: 1px solid yellow; */
 }
 
-.fullStack {
+/* .fullStack {
   font-family: "Nunito Sans", serif;
   text-align: center;
   font-size: 2.5rem;
   color: black;
-}
+} */
 
-.stack {
+/* .stack {
   text-align: center;
   color: rgba(99, 97, 94, 1);
   margin-bottom: 3%;
-}
+} */
 
 .links {
   width: 40vw;
@@ -64,9 +71,14 @@ html {
   flex-direction: column;
   border: 1px solid transparent;
   font-family: "Roboto Serif", serif;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   padding: 0;
   /* border: 1px solid green; */
+  a {
+    text-decoration: none;
+    color: rgb(183, 191, 196);
+    line-height: 1.6rem;
+  }
 }
 
 .links a:hover {
@@ -78,11 +90,6 @@ html {
   font-size: 1.6rem;
   display: inline-block;
   padding-top: 5px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 a:hover {
@@ -302,13 +309,6 @@ h2 {
   .workSection .fissura {
     width: 90%;
   }
-
-  /* .workSectionContent2Row {
-    margin: 0 auto;
-    width: 80vw;
-    display: block;
-    border: 1px solid green;
-  } */
 
   .arrow {
     width: 80vw;
