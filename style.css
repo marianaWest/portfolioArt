@@ -11,64 +11,74 @@ html {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  border: 1px solid green;
+  background-image: url("assets/cover.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* border: 1px solid green; */
 }
 
 .logo-name {
-  margin-top: 20%;
+  position: fixed;
+  bottom: 10%;
+  right: 0%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  width: 40%;
+  color: rgb(183, 191, 196);
+  font-weight: 600;
   /* border: 1px solid red; */
 }
 
 .logo-name p {
   font-family: "Roboto Serif", serif;
-  font-size: 1.8rem;
-  font-weight: 200;
-  margin: 1% 10vw;
-  text-align: center;
-  color: grey;
-  /* border: 1px solid black; */
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: left;
+  color: rgb(183, 191, 196);
+  margin: 0;
+  margin-bottom: 1rem;
+  /* border: 1px solid white; */
 }
 
 .name {
   font-family: "Nunito Sans", serif;
-  font-size: 4rem;
-  width: 60rem;
+  font-size: 3rem;
   padding: 0;
   margin: 0;
-  margin-left: 1rem;
-  text-align: center;
-  /* border: 1px solid blue; */
+  text-align: left;
+  /* border: 1px solid yellow; */
 }
 
-.fullStack {
+/* .fullStack {
   font-family: "Nunito Sans", serif;
   text-align: center;
   font-size: 2.5rem;
   color: black;
-}
+} */
 
-.stack {
+/* .stack {
   text-align: center;
   color: rgba(99, 97, 94, 1);
   margin-bottom: 3%;
-}
+} */
 
 .links {
   width: 40vw;
-  height: 1.8rem;
   font-weight: 200;
-  margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   border: 1px solid transparent;
   font-family: "Roboto Serif", serif;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   padding: 0;
+  /* border: 1px solid green; */
+  a {
+    text-decoration: none;
+    color: rgb(183, 191, 196);
+    line-height: 1.6rem;
+  }
 }
 
 .links a:hover {
@@ -80,11 +90,6 @@ html {
   font-size: 1.6rem;
   display: inline-block;
   padding-top: 5px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 a:hover {
@@ -291,37 +296,6 @@ h2 {
     display: block;
   }
 
-  .workSectionContent img {
-    width: 100%;
-  }
-
-  .workSectionContent .LeonSays,
-  .workSectionContent .sketch1,
-  .workSectionContent .mupalavra,
-  .workSectionContent .yesOrNo,
-  .workSectionContent .NASA,
-  .workSectionContent .tiaBiscoiteira,
-  .workSection .fissura {
-    width: 90%;
-  }
-
-  /* .workSectionContent2Row {
-    margin: 0 auto;
-    width: 80vw;
-    display: block;
-    border: 1px solid green;
-  } */
-
-  .arrow {
-    width: 80vw;
-    height: 100px;
-    text-align: left;
-  }
-  .workSection i {
-    display: inline-block;
-    float: right;
-  }
-
   .contactSection {
     width: 80vw;
     padding-left: 0;
@@ -445,7 +419,7 @@ h2 {
   .workSection {
     width: 98vw;
     padding: 0;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
