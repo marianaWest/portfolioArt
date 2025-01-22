@@ -296,30 +296,6 @@ h2 {
     display: block;
   }
 
-  .workSectionContent img {
-    width: 100%;
-  }
-
-  .workSectionContent .LeonSays,
-  .workSectionContent .sketch1,
-  .workSectionContent .mupalavra,
-  .workSectionContent .yesOrNo,
-  .workSectionContent .NASA,
-  .workSectionContent .tiaBiscoiteira,
-  .workSection .fissura {
-    width: 90%;
-  }
-
-  .arrow {
-    width: 80vw;
-    height: 100px;
-    text-align: left;
-  }
-  .workSection i {
-    display: inline-block;
-    float: right;
-  }
-
   .contactSection {
     width: 80vw;
     padding-left: 0;
@@ -443,7 +419,7 @@ h2 {
   .workSection {
     width: 98vw;
     padding: 0;
-    border: 1px solid transparent;
+    /* border: 1px solid transparent; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;

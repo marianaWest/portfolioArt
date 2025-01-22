@@ -13,8 +13,10 @@
     flex-direction: column;
     height: 60vh;
     a {
-      font-size: 18px;
+      font-size: 14px;
       margin-bottom: 10px;
+      text-decoration: none;
+      color: grey;
     }
   }
 }
@@ -29,7 +31,7 @@
   object-fit: cover;
   img {
     display: block;
-    height: 800px;
+    height: 500px;
   }
   .texto {
     height: 90%;
@@ -38,7 +40,8 @@
     justify-content: space-between;
     .descricao {
       text-align: left;
-      font-size: 20px;
+      font-size: 14px;
+      line-height: 18px;
       margin: 0 0 0 16px;
       height: 70%;
       display: flex;
@@ -48,10 +51,34 @@
     .legenda {
       margin: 0 0 0 16px;
       p {
-        font-size: 18px;
+        font-size: 14px;
         margin: 0;
         text-align: left;
         color: grey;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 1300px) {
+  .medusaNav {
+    .medusaList {
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+  .galleryImg {
+    img {
+      height: 800px;
+    }
+    .texto {
+      .descricao {
+        font-size: 18px;
+        line-height: 22px;
+      }
+      .legenda p {
+        font-size: 16px;
       }
     }
   }
