@@ -93,7 +93,7 @@ html {
 }
 
 a:hover {
-  text-shadow: 3px 3px grey;
+  text-shadow: 3px 3px rgba(128, 128, 128, 0.5);
   font-style: italic;
 }
 
