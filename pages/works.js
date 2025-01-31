@@ -6,7 +6,6 @@ openMedusa.onmouseover = function () {
   modal.style.display = "block";
 };
 
-// not working
 closeModal.onclick = function () {
   modal.style.display = "none";
   console.log("close");

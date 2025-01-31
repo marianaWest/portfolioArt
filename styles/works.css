@@ -4,7 +4,7 @@
   padding-top: 2vw;
   border: 1px solid transparent;
   font-family: "Nunito Sans", sans-serif;
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
 }
 
 .workSection h2 {
@@ -99,28 +99,35 @@
   width: 100%;
   height: 100%;
   overflow: auto;
+  border: 2px solid purple;
   /* background-color: rgba(0, 0, 0, 0.4); */
 }
 
 .modal-content {
   background-color: rgba(0, 0, 0, 0.4);
-  margin: 5% auto;
+  margin-top: 10%;
+  margin-left: 44%;
   padding: 20px;
   border: 1px solid green;
   border-radius: 5px;
   width: 30%;
   p {
-    color: rgb(176, 174, 174);
+    color: rgb(214, 213, 213);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    text-align: left;
   }
   .seeWorks {
-    color: rgb(176, 174, 174);
+    color: rgb(214, 213, 213);
+    font-family: "Nunito Sans", sans-serif;
     cursor: pointer;
+    border: 1px solid yellow;
   }
 }
 
 .close {
-  border: 1px solid purple;
   cursor: pointer;
+  color: rgb(214, 213, 213);
 }
 
 @media all and (min-width: 1300px) {
