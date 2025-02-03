@@ -78,6 +78,9 @@ html {
     text-decoration: none;
     color: rgb(183, 191, 196);
     line-height: 1.6rem;
+    img {
+      color: white;
+    }
   }
 }
 
