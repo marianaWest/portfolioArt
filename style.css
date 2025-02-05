@@ -51,19 +51,6 @@ html {
   /* border: 1px solid yellow; */
 }
 
-/* .fullStack {
-  font-family: "Nunito Sans", serif;
-  text-align: center;
-  font-size: 2.5rem;
-  color: black;
-} */
-
-/* .stack {
-  text-align: center;
-  color: rgba(99, 97, 94, 1);
-  margin-bottom: 3%;
-} */
-
 .links {
   width: 40vw;
   font-weight: 200;
@@ -73,13 +60,20 @@ html {
   font-family: "Roboto Serif", serif;
   font-size: 1.2rem;
   padding: 0;
-  /* border: 1px solid green; */
-  a {
-    text-decoration: none;
-    color: rgb(183, 191, 196);
-    line-height: 1.6rem;
-    img {
-      color: white;
+  border: 1px solid green;
+  span {
+    border: 1px solid white;
+    display: flex;
+    a {
+      text-decoration: none;
+      color: rgb(183, 191, 196);
+      line-height: 1.6rem;
+      border: 1px solid red;
+      img {
+        max-height: 2rem;
+        margin: 0;
+        border: 1px solid pink;
+      }
     }
   }
 }
