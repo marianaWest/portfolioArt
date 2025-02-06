@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="113.73426mm"
-   height="113.46276mm"
-   viewBox="0 0 113.73426 113.46276"
+   width="10mm"
+   height="10mm"
+   viewBox="0 0 110 110"
    version="1.1"
    id="svg5"
    xmlns="http://www.w3.org/2000/svg"
@@ -13,7 +13,8 @@
      id="defs2" />
   <g
      id="layer1"
-     transform="translate(-22.164305,-88.735952)">
+     transform="translate(-22.164305,-88.735952)"
+     >
     <g
        id="g1505">
       <path
@@ -48,6 +49,15 @@
          style="fill:none;stroke:white;stroke-width:2;stroke-opacity:1"
          d="m 75.903625,152.87378 c 0,0 -6.120542,2.31517 -8.319872,5.49934 -2.92056,4.22835 -1.72919,15.15931 -5.37088,19.12784 -7.048885,8.93327 -14.573275,7.82299 -23.222995,7.77566 10.6702,-0.99896 17.557795,-5.94008 19.689525,-11.12068 0.82282,-1.99966 0.89038,-8.99155 2.18176,-15.73969 1.29138,-6.74812 10.749415,-10.05125 10.749415,-10.05125"
          id="path1447" />
+         
     </g>
+     <animateTransform
+      attributeName="transform"
+      begin="0s"
+      dur="10s"
+      type="rotate"
+      from="0 80 80"
+   to="360 80 80"
+      repeatCount="indefinite" />
   </g>
 </svg>

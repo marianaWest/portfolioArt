@@ -61,16 +61,19 @@ html {
   font-size: 1.2rem;
   padding: 0;
   border: 1px solid green;
-  span {
+  .icons {
     border: 1px solid white;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     a {
+      display: block;
       text-decoration: none;
       color: rgb(183, 191, 196);
-      line-height: 1.6rem;
       border: 1px solid red;
       img {
-        max-height: 2rem;
+        display: inline-block;
+        height: 2rem;
         margin: 0;
         border: 1px solid pink;
       }
