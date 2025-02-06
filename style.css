@@ -62,7 +62,7 @@ html {
   padding: 0;
   border: 1px solid green;
   .icons {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -70,15 +70,27 @@ html {
       display: block;
       text-decoration: none;
       color: rgb(183, 191, 196);
-      border: 1px solid red;
+      /* border: 1px solid red; */
       img {
         display: inline-block;
         height: 2rem;
         margin: 0;
-        border: 1px solid pink;
       }
     }
   }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.medusaRotate {
+  animation: rotate 3s linear infinite;
 }
 
 .links a:hover {
