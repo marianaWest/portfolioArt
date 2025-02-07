@@ -55,26 +55,35 @@ html {
   width: 40vw;
   font-weight: 200;
   display: flex;
-  flex-direction: column;
-  border: 1px solid transparent;
+  flex-direction: row;
   font-family: "Roboto Serif", serif;
   font-size: 1.2rem;
   padding: 0;
-  border: 1px solid green;
+  gap: 20px;
+  /* border: 1px solid green; */
   .icons {
     /* border: 1px solid white; */
     display: flex;
     flex-direction: row;
     align-items: center;
-    a {
-      display: block;
+    .works {
       text-decoration: none;
       color: rgb(183, 191, 196);
+      display: flex;
+      gap: 8px;
       /* border: 1px solid red; */
       img {
         display: inline-block;
-        height: 2rem;
         margin: 0;
+      }
+    }
+    .legenda {
+      opacity: 0;
+      transition: opacity 1s;
+    }
+    .works:hover {
+      .legenda {
+        opacity: 1;
       }
     }
   }
@@ -90,7 +99,12 @@ html {
 }
 
 .medusaRotate {
+  height: 2rem;
   animation: rotate 3s linear infinite;
+}
+
+.openEye {
+  height: 1.2rem;
 }
 
 .links a:hover {
@@ -167,25 +181,6 @@ h2 {
 }
 .workSection i {
   display: inline-block;
-}
-
-.contactSection {
-  width: 60vw;
-  padding-left: 0;
-  padding-top: 0;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.contactSectionIcons {
-  width: 30vw;
-  text-align: right;
-}
-
-.contactSection i {
-  width: 5vw;
 }
 
 @media all and (max-width: 400px) {
@@ -306,32 +301,6 @@ h2 {
     margin: 0 auto;
     width: 80vw;
     display: block;
-  }
-
-  .contactSection {
-    width: 80vw;
-    padding-left: 0;
-    padding-top: 15px;
-    border-top: 2px solid black;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .contactSection h2 {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .contactSectionIcons {
-    width: 100%;
-    text-align: left;
-  }
-
-  .contactSection i {
-    width: 15vw;
   }
 }
 
@@ -475,32 +444,6 @@ h2 {
   .workSection i {
     display: inline-block;
     float: right;
-  }
-
-  .contactSection {
-    width: 80vw;
-    padding-left: 0;
-    padding-top: 15px;
-    border-top: 2px solid black;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .contactSection h2 {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .contactSectionIcons {
-    width: 100%;
-    text-align: left;
-  }
-
-  .contactSection i {
-    width: 15vw;
   }
 }
 
