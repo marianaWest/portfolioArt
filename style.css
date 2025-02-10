@@ -103,6 +103,20 @@ html {
   animation: rotate 3s linear infinite;
 }
 
+@keyframes rotateReverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.medusaRotateReverse {
+  height: 2rem;
+  animation: rotateReverse 3s linear infinite;
+}
+
 .openEye {
   height: 1.2rem;
 }
