@@ -6,9 +6,7 @@
     overflow-x: hidden; */
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid orange;
   .medusaList {
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
     height: 60vh;
@@ -26,30 +24,33 @@
   align-items: center;
   justify-content: space-between;
   scroll-snap-align: start;
-  margin-bottom: 40px;
+  margin-bottom: 0;
   width: 100%;
   object-fit: cover;
   img {
     display: block;
-    height: 500px;
+    height: 100%;
   }
   .texto {
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 2px solid red;
     .descricao {
-      text-align: left;
+      font-family: "Nunito Sans", sans-serif;
+      color: rgb(78, 78, 78);
+      text-align: right;
       font-size: 14px;
-      line-height: 18px;
+      line-height: 20px;
       margin: 0 0 0 16px;
       height: 70%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start;
     }
     .legenda {
-      margin: 0 0 0 16px;
+      margin: 0 0 0 12px;
       p {
         font-size: 14px;
         margin: 0;
@@ -70,15 +71,18 @@
   }
   .galleryImg {
     img {
-      height: 800px;
+      height: 100%;
     }
     .texto {
+      flex-grow: 2;
       .descricao {
-        font-size: 18px;
+        text-align: right;
+        font-size: 16px;
         line-height: 22px;
+        border: 1px solid black;
       }
       .legenda p {
-        font-size: 16px;
+        font-size: 14px;
       }
     }
   }
