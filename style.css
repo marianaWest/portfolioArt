@@ -20,12 +20,12 @@ html {
 .logo-name {
   position: fixed;
   bottom: 10%;
-  right: 0%;
+  right: 5%;
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
-  align-items: flex-start;
-  width: 40%;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 30%;
   color: rgb(183, 191, 196);
   font-weight: 600;
   /* border: 1px solid red; */
@@ -35,10 +35,9 @@ html {
   font-family: "Nunito Sans", serif;
   font-size: 1.6rem;
   font-weight: 300;
-  text-align: left;
+  text-align: right;
   color: rgb(183, 191, 196);
   margin: 0;
-  margin-bottom: 1rem;
   /* border: 1px solid white; */
 }
 
@@ -52,14 +51,17 @@ html {
 }
 
 .links {
-  width: 40vw;
+  width: 70vw;
   font-weight: 200;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: "Nunito Sans", serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: 0;
-  gap: 20px;
+  height: 36rem;
+  margin: 7rem auto;
+  /* gap: 20px; */
   /* border: 1px solid green; */
   .icons {
     /* border: 1px solid white; */
@@ -68,6 +70,7 @@ html {
     align-items: center;
     .works {
       text-decoration: none;
+      width: 100%;
       color: rgb(183, 191, 196);
       display: flex;
       align-items: center;
@@ -83,11 +86,33 @@ html {
         margin: 0;
       }
     }
+    .about {
+      text-decoration: none;
+      width: 100%;
+      color: rgb(183, 191, 196);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+      /* border: 1px solid red; */
+      margin: 0;
+
+      img {
+        display: inline-block;
+        margin: 0;
+      }
+      span {
+        display: inline-block;
+        margin: 0;
+      }
+    }
+
     .legenda {
       opacity: 0;
       transition: opacity 1s;
     }
-    .works:hover {
+    .works:hover,
+    .about:hover {
       .legenda {
         opacity: 1;
       }
@@ -105,7 +130,7 @@ html {
 }
 
 .medusaRotate {
-  height: 3rem;
+  height: 8rem;
   animation: rotate 3s linear infinite;
 }
 
@@ -119,7 +144,7 @@ html {
 }
 
 .medusaRotateReverse {
-  height: 3rem;
+  height: 4rem;
   animation: rotateReverse 3s linear infinite;
 }
 
