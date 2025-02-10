@@ -32,7 +32,7 @@ html {
 }
 
 .logo-name p {
-  font-family: "Roboto Serif", serif;
+  font-family: "Nunito Sans", serif;
   font-size: 1.6rem;
   font-weight: 300;
   text-align: left;
@@ -56,7 +56,7 @@ html {
   font-weight: 200;
   display: flex;
   flex-direction: row;
-  font-family: "Roboto Serif", serif;
+  font-family: "Nunito Sans", serif;
   font-size: 1.2rem;
   padding: 0;
   gap: 20px;
@@ -70,9 +70,15 @@ html {
       text-decoration: none;
       color: rgb(183, 191, 196);
       display: flex;
+      align-items: center;
       gap: 8px;
       /* border: 1px solid red; */
+      margin: 0;
       img {
+        display: inline-block;
+        margin: 0;
+      }
+      span {
         display: inline-block;
         margin: 0;
       }
@@ -99,7 +105,7 @@ html {
 }
 
 .medusaRotate {
-  height: 2rem;
+  height: 3rem;
   animation: rotate 3s linear infinite;
 }
 
@@ -113,7 +119,7 @@ html {
 }
 
 .medusaRotateReverse {
-  height: 2rem;
+  height: 3rem;
   animation: rotateReverse 3s linear infinite;
 }
 
@@ -132,10 +138,10 @@ html {
   padding-top: 5px;
 }
 
-a:hover {
+/* a:hover {
   text-shadow: 3px 3px rgba(128, 128, 128, 0.5);
   font-style: italic;
-}
+} */
 
 h2 {
   font-family: "Nunito Sans", sans-serif;
