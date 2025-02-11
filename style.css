@@ -20,7 +20,7 @@ html {
 .logo-name {
   position: fixed;
   bottom: 10%;
-  right: 5%;
+  right: 10%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -31,19 +31,19 @@ html {
   /* border: 1px solid red; */
 }
 
-.logo-name p {
+/* .logo-name p {
   font-family: "Nunito Sans", serif;
   font-size: 1.6rem;
   font-weight: 300;
   text-align: right;
   color: rgb(183, 191, 196);
   margin: 0;
-  /* border: 1px solid white; */
-}
+  border: 1px solid white;
+} */
 
 .name {
   font-family: "Nunito Sans", serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 0;
   margin: 0;
   text-align: left;
@@ -59,8 +59,8 @@ html {
   font-family: "Nunito Sans", serif;
   font-size: 1.4rem;
   padding: 0;
-  height: 36rem;
-  margin: 7rem auto;
+  height: 60%;
+  margin: 5% auto;
   /* gap: 20px; */
   /* border: 1px solid green; */
   .icons {
@@ -131,7 +131,7 @@ html {
 
 .medusaRotate {
   height: 8rem;
-  animation: rotate 3s linear infinite;
+  animation: rotate 6s linear infinite;
 }
 
 @keyframes rotateReverse {
@@ -154,6 +154,12 @@ html {
 
 .links a:hover {
   font-style: italic;
+  .medusaRotate {
+    animation: rotate 2s linear infinite;
+  }
+  .medusaRotateReverse {
+    animation: rotateReverse 1s linear infinite;
+  }
 }
 
 .stackList {
