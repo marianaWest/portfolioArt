@@ -11,10 +11,10 @@ html {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-image: url("assets/cover.png");
+  background-image: url("../../assets/series/series.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  /* border: 1px solid green; */
+  border: 1px solid green;
 }
 
 .logo-name {
@@ -28,18 +28,8 @@ html {
   width: 30%;
   color: rgb(183, 191, 196);
   font-weight: 600;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
-
-/* .logo-name p {
-  font-family: "Nunito Sans", serif;
-  font-size: 1.6rem;
-  font-weight: 300;
-  text-align: right;
-  color: rgb(183, 191, 196);
-  margin: 0;
-  border: 1px solid white;
-} */
 
 .name {
   font-family: "Nunito Sans", serif;
@@ -47,7 +37,7 @@ html {
   padding: 0;
   margin: 0;
   text-align: left;
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
 }
 
 .links {
@@ -61,10 +51,9 @@ html {
   padding: 0;
   height: 60%;
   margin: 5% auto;
-  /* gap: 20px; */
-  /* border: 1px solid green; */
+  border: 1px solid green;
   .icons {
-    /* border: 1px solid white; */
+    border: 1px solid white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -75,7 +64,7 @@ html {
       display: flex;
       align-items: center;
       gap: 8px;
-      /* border: 1px solid red; */
+      border: 1px solid red;
       margin: 0;
       img {
         display: inline-block;
@@ -94,7 +83,7 @@ html {
       align-items: center;
       justify-content: flex-end;
       gap: 8px;
-      /* border: 1px solid red; */
+      border: 1px solid red;
       margin: 0;
 
       img {
@@ -168,11 +157,6 @@ html {
   display: inline-block;
   padding-top: 5px;
 }
-
-/* a:hover {
-  text-shadow: 3px 3px rgba(128, 128, 128, 0.5);
-  font-style: italic;
-} */
 
 h2 {
   font-family: "Nunito Sans", sans-serif;
