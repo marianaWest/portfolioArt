@@ -23,25 +23,24 @@
   <body>
     <div class="background">
       <div class="container">
-        <p>Melhor o urso</p>
-        <div style="visibility: hidden">
-          <audio controls autoplay>
-            <source
-              src="../../assets/audio/bear-growls.mp3"
-              type="audio/mpeg"
-            />
-          </audio>
+        <div class="text">
+          <div class="fadingText">
+            <p>Choose the Bear</p>
+          </div>
         </div>
-        <div
-          style="
-            border: 4px solid transparent;
-            mask: linear-gradient(#000 0 0),
-              linear-gradient(#0000, #000 99%) padding-box;
-            mask-composite: exclude;
-          "
-        >
-          <img class="urso" src="../../assets/medusa/urso.jpg" />
-          <!-- <img class="urso" src="../../assets/medusa/fundoMeio.png" /> -->
+
+        <div style="border: 3px solid white">
+          <div style="visibility: hidden; height: 0">
+            <audio controls autoplay>
+              <source
+                src="../../assets/audio/bear-growls.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+          </div>
+          <div class="fadingImage" style="border: 2px solid blue">
+            <img class="urso" src="../../assets/medusa/urso.jpg" />
+          </div>
         </div>
       </div>
     </div>
