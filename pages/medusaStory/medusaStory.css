@@ -26,8 +26,11 @@ html {
 }
 
 .container p {
-  color: white;
-  font-family: "Nunito Sans", serif;
+  color: #d2222d;
+  font-family: "Borel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
   text-align: right;
   margin-right: -20px;
 }
