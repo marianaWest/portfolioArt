@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
       rel="stylesheet"
     />
 
@@ -23,17 +23,25 @@
   <body>
     <div class="background">
       <div class="container">
-        <p>Melhor o urso</p>
-        <div style="visibility: hidden">
-          <audio controls autoplay>
-            <source
-              src="../../assets/audio/bear-growls.mp3"
-              type="audio/mpeg"
-            />
-          </audio>
+        <div class="text">
+          <div class="fadingText">
+            <p>Choose the Bear</p>
+          </div>
         </div>
 
-        <img class="urso" src="../../assets/medusa/urso.jpg" />
+        <div style="border: 3px solid white">
+          <div style="visibility: hidden; height: 0">
+            <audio controls autoplay>
+              <source
+                src="../../assets/audio/bear-growls.mp3"
+                type="audio/mpeg"
+              />
+            </audio>
+          </div>
+          <div class="fadingImage" style="border: 2px solid blue">
+            <img class="urso" src="../../assets/medusa/urso.jpg" />
+          </div>
+        </div>
       </div>
     </div>
   </body>
