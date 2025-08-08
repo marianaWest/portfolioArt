@@ -8,7 +8,6 @@ bearBox.addEventListener("mouseenter", () => {
   backgroundBox.style.backgroundImage =
     'url("../../assets/medusa/bibbCountyAlabama.jpg")';
   bearImage.src = newBearSrc;
-  //   bearImage.remove();
 });
 
 bearBox.addEventListener("mouseleave", () => {
