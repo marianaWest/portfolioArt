@@ -1,14 +1,34 @@
 const backgroundBox = document.getElementById("backgroundBox");
-const box = document.getElementById("hoverBox");
+const bearImage = 'url("../../assets/medusa/urso.jpg")';
+  const bearBox = document.getElementById("bearBox");
 
-box.addEventListener("mouseenter", () => {
-  console.log("Mouse entered!");
+// window.addEventListener("DOMContentLoaded", () => {
+
+
+//   if (!bearBox) {
+//     console.error("bearBox not found");
+//     return;
+//   }
+
+//   bearBox.style.backgroundImage = bearImage;
+//   bearBox.style.height = "500px";
+
+//   bearBox.style.border = "4px solid transparent";
+//   bearBox.style.mask =
+//     "radial-gradient(#000 0 0), radial-gradient(#0000, #000 99%) padding-box";
+//   bearBox.style.maskComposite = "exclude";
+// });
+
+bearBox.addEventListener("mouseenter", () => {
+  console.log("entered");
+  bearBox.style.backgroundColor = "red";
   backgroundBox.style.backgroundImage =
-    'url("../../assets/medusa/agua-viva.png")';
+    'url("../../assets/medusa/bibbCountyAlabama.jpg")';
 });
 
-box.addEventListener("mouseleave", () => {
-  console.log("Mouse left!");
+bearBox.addEventListener("mouseleave", () => {
+  console.log("left");
+  bearBox.style.backgroundColor = "yellow";
   backgroundBox.style.backgroundImage =
     'url("../../assets/medusa/fundoMeio.png")';
 });
