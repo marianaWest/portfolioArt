@@ -35,7 +35,7 @@ html {
   margin-right: -20px;
 }
 
-.urso {
+.bear {
   height: 100%;
 }
 
@@ -76,4 +76,5 @@ html {
   border: 4px solid transparent;
   mask: radial-gradient(#000 0 0), radial-gradient(#0000, #000 99%) padding-box;
   mask-composite: exclude;
+  cursor: pointer;
 }
