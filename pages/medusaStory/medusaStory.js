@@ -2,7 +2,7 @@ const backgroundBox = document.getElementById("backgroundBox");
 const bearBox = document.getElementById("bearBox");
 const bearImage = document.getElementById("bearImage");
 const originalBearSrc = bearImage.src;
-const newBearSrc = "../../assets/medusa/medusa.jpg";
+const newBearSrc = "../../assets/medusa/sem_urso.jpg";
 
 bearBox.addEventListener("mouseenter", () => {
   backgroundBox.style.backgroundImage =
