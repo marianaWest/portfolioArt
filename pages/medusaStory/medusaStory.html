@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=M, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Borel&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="data:," />
+    <!-- for now, I might add a favicon -->
 
     <script
       src="https://kit.fontawesome.com/634b8706ea.js"
@@ -21,15 +23,15 @@
     <title>mariana hartenthal</title>
   </head>
   <body>
-    <div class="background">
+    <div class="background" id="backgroundBox">
       <div class="container">
         <div class="text">
           <div class="fadingText">
-            <p>Choose the Bear</p>
+            <p>nós amamos crianças</p>
           </div>
         </div>
 
-        <div style="border: 3px solid white">
+        <div>
           <div style="visibility: hidden; height: 0">
             <audio controls autoplay>
               <source
@@ -38,11 +40,12 @@
               />
             </audio>
           </div>
-          <div class="fadingImage" style="border: 2px solid blue">
+          <div class="fadingImage" id="bearBox">
             <img class="urso" src="../../assets/medusa/urso.jpg" />
           </div>
         </div>
       </div>
     </div>
+    <script src="medusaStory.js"></script>
   </body>
 </html>
