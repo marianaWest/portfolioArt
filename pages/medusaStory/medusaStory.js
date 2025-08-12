@@ -7,7 +7,7 @@ const newBearSrc = "../../assets/medusa/sem_urso.jpg";
 bearBox.addEventListener("mouseenter", () => {
   backgroundBox.style.backgroundImage =
     'url("../../assets/medusa/bibbCountyAlabama.jpg")';
-  bearImage.src = newBearSrc;
+  // bearImage.src = newBearSrc;
 });
 
 bearBox.addEventListener("mouseleave", () => {
