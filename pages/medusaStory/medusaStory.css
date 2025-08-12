@@ -69,7 +69,7 @@ html {
 
 .fadingImage {
   height: 100%;
-  width: auto;
+  width: 500px;
   border: 4px solid transparent;
   mask: radial-gradient(#000 0 0), radial-gradient(#0000, #000 99%) padding-box;
   mask-composite: exclude;
@@ -80,5 +80,28 @@ html {
 }
 
 .bear {
+  width: auto;
   height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* transition: opacity 0.1s ease-in-out; */
+}
+
+.bear.original {
+  opacity: 1;
+  z-index: 1;
+}
+
+.bear.hover {
+  opacity: 0;
+  z-index: 2;
+}
+
+.fadingImage:hover .bear:hover {
+  opacity: 1;
+}
+
+.fadingImage:hover .bear.original {
+  opacity: 0;
 }
