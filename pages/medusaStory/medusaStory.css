@@ -33,17 +33,18 @@ html {
 .work {
   width: 90px;
   height: auto;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   position: absolute;
   top: 50%;
   left: 30%;
   cursor: pointer;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   p {
-    color: rgb(246, 246, 145);
+    color: rgb(242, 242, 207);
     opacity: 0;
+    font-family: "Nunito Sans", serif;
   }
   p:hover {
     opacity: 1;
@@ -55,7 +56,10 @@ html {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background-color: rgb(246, 246, 145);
+  background-color: rgb(242, 242, 207);
+  position: absolute;
+  /* top: 50%; */
+  /* left: 5%; */
 }
 
 .container {
