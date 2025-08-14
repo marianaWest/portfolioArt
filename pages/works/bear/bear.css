@@ -21,13 +21,50 @@ body {
   justify-content: center;
 }
 
-.bearImage {
+.pageContent {
   height: 90%;
   width: 90%;
-  display: inline-block;
-  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.bearImage {
+  /* border: 2px solid blue; */
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   img {
+    margin: 0;
+    padding: 0;
     height: 500px;
     width: auto;
+  }
+}
+
+.text {
+  width: 45%;
+  /* border: 1px solid green; */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.caption {
+  /* border: 1px solid orange; */
+  margin-left: 12px;
+  font-family: "Nunito Sans", serif;
+  p {
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    font-size: 0.9rem;
+    .title {
+      font-weight: 400;
+      font-size: 1rem;
+    }
   }
 }
