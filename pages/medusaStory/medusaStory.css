@@ -31,7 +31,7 @@ html {
 }
 
 .work {
-  width: 90px;
+  width: 120px;
   height: auto;
   /* border: 1px solid yellow; */
   position: absolute;
@@ -45,6 +45,9 @@ html {
     color: rgb(242, 242, 207);
     opacity: 0;
     font-family: "Nunito Sans", serif;
+    font-weight: 200;
+    font-size: 1.4rem;
+    font-style: italic;
   }
   p:hover {
     opacity: 1;
@@ -58,6 +61,9 @@ html {
   border-radius: 50%;
   background-color: rgb(242, 242, 207);
   position: absolute;
+  box-shadow: -3px -1px 67px 26px rgba(242, 242, 207, 0.87);
+  -webkit-box-shadow: -3px -1px 67px 26px rgba(242, 242, 207, 0.87);
+  -moz-box-shadow: -3px -1px 67px 26px rgba(242, 242, 207, 0.87);
   /* top: 50%; */
   /* left: 5%; */
 }
