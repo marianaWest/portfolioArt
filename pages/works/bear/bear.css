@@ -27,11 +27,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .navigation {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 20%;
   a {
     text-decoration: none;
@@ -39,7 +39,7 @@ body {
   img {
     display: inline-block;
     margin: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   span {
     display: inline-block;
@@ -52,7 +52,7 @@ body {
 }
 
 .bearImage {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 45%;
   display: flex;
   align-items: center;
@@ -67,7 +67,7 @@ body {
 
 .text {
   width: 45%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   height: 500px;
   display: flex;
   flex-direction: column;
