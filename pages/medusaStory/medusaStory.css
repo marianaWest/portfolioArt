@@ -17,9 +17,26 @@ html {
   position: relative;
 }
 
+.medusaText {
+  border: 1px solid red;
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 26%;
+  p {
+    border: 1px solid white;
+    color: white;
+    font-family: "Nunito Sans", serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
 .caption {
   /* border: 3px solid green; */
   display: block;
+  font-family: "Nunito Sans", serif;
   position: absolute;
   bottom: 10px;
   left: 10%;
