@@ -18,13 +18,22 @@ html {
 }
 
 .medusaText {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 50%;
   position: absolute;
   top: 40%;
   left: 26%;
+  -moz-animation: cssAnimation 0s ease-in 1s forwards;
+  /* Firefox */
+  -webkit-animation: cssAnimation 0s ease-in 1s forwards;
+  /* Safari and Chrome */
+  -o-animation: cssAnimation 0s ease-in 1s forwards;
+  /* Opera */
+  animation: cssAnimation 0s ease-in 5s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   p {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     color: white;
     font-family: "Nunito Sans", serif;
     font-weight: 400;
