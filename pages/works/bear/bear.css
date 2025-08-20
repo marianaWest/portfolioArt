@@ -30,6 +30,27 @@ body {
   /* border: 1px solid red; */
 }
 
+.navigation {
+  /* border: 1px solid black; */
+  width: 20%;
+  a {
+    text-decoration: none;
+  }
+  img {
+    display: inline-block;
+    margin: 0;
+    /* border: 1px solid red; */
+  }
+  span {
+    display: inline-block;
+    font-family: "Nunito Sans", serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+}
+
 .bearImage {
   /* border: 2px solid blue; */
   width: 45%;
