@@ -31,7 +31,7 @@ html {
 }
 
 .work {
-  width: 120px;
+  width: 140px;
   height: auto;
   /* border: 1px solid yellow; */
   position: absolute;
@@ -39,14 +39,14 @@ html {
   left: 30%;
   cursor: pointer;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   /* align-items: center; */
   p {
     color: rgb(242, 242, 207);
     opacity: 0;
     font-family: "Nunito Sans", serif;
     font-weight: 200;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-style: italic;
   }
   p:hover {
