@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="10mm"
-   height="10mm"
-   viewBox="0 0 110 110"
+   width="10.300698mm"
+   height="10.276016mm"
+   viewBox="0 0 113.30768 113.03618"
    version="1.1"
    id="svg5"
    sodipodi:docname="medusaHome.svg"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.81476"
-     inkscape:cx="212.97582"
-     inkscape:cy="100.83978"
+     inkscape:cx="94.778373"
+     inkscape:cy="101.39082"
      inkscape:window-width="1920"
      inkscape:window-height="974"
      inkscape:window-x="-11"
@@ -37,7 +37,8 @@
      id="defs2" />
   <g
      id="layer1"
-     style="fill:currentColor">
+     style="fill:currentColor"
+     transform="translate(-22.377595,-88.949238)">
     <g
        id="g1505"
        style="fill:currentColor">
@@ -74,6 +75,5 @@
          d="m 75.903625,152.87378 c 0,0 -6.120542,2.31517 -8.319872,5.49934 -2.92056,4.22835 -1.72919,15.15931 -5.37088,19.12784 -7.048885,8.93327 -14.573275,7.82299 -23.222995,7.77566 10.6702,-0.99896 17.557795,-5.94008 19.689525,-11.12068 0.82282,-1.99966 0.89038,-8.99155 2.18176,-15.73969 1.29138,-6.74812 10.749415,-10.05125 10.749415,-10.05125"
          id="path1447" />
     </g>
-
   </g>
 </svg>
