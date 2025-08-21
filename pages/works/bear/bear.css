@@ -31,8 +31,8 @@ body {
 }
 
 .navigation {
-  border: 1px solid black;
-  width: 20%;
+  /* border: 1px solid black; */
+  width: 30%;
   display: flex;
   flex-direction: column;
   a {
@@ -44,7 +44,7 @@ body {
   img {
     display: inline-block;
     margin-right: 6px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   span {
     display: inline-block;
@@ -53,6 +53,18 @@ body {
     text-decoration: none;
     color: black;
     cursor: pointer;
+  }
+}
+.home,
+.back {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.links:hover {
+  .home,
+  .back {
+    opacity: 1;
+    font-style: italic;
   }
 }
 
