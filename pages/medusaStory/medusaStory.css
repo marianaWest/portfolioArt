@@ -183,3 +183,24 @@ html {
 .fadingImage:hover .bear.original {
   opacity: 0;
 }
+
+.arrow {
+  width: 5%;
+  /* border: 1px solid yellow; */
+  color: white;
+  font-size: 32px;
+  position: absolute;
+  top: 40%;
+  left: 20px;
+}
+
+.arrowRight {
+  width: 5%;
+  /* border: 1px solid yellow; */
+  color: white;
+  font-size: 32px;
+  position: absolute;
+  top: 40%;
+  right: 20px;
+  text-align: right;
+}
