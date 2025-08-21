@@ -68,6 +68,32 @@ body {
   }
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.medusaRotate:hover {
+  animation: rotate 6s linear infinite;
+}
+
+@keyframes rotateReverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.medusaRotateReverse:hover {
+  animation: rotateReverse 3s linear infinite;
+}
+
 .bearImage {
   /* border: 2px solid blue; */
   width: 45%;
@@ -107,7 +133,8 @@ body {
   }
 }
 
-.medusaRotate {
+.medusaRotate,
+.medusaRotateReverse {
   /* border: 1px solid orange; */
   width: 50px;
   height: auto;
