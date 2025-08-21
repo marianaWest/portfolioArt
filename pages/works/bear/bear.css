@@ -32,13 +32,18 @@ body {
 
 .navigation {
   /* border: 1px solid black; */
-  width: 20%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
   a {
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 6px;
   }
   img {
     display: inline-block;
-    margin: 0;
+    margin-right: 6px;
     /* border: 1px solid red; */
   }
   span {
@@ -49,6 +54,44 @@ body {
     color: black;
     cursor: pointer;
   }
+}
+.home,
+.back {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.links:hover {
+  .home,
+  .back {
+    opacity: 1;
+    font-style: italic;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.medusaRotate:hover {
+  animation: rotate 6s linear infinite;
+}
+
+@keyframes rotateReverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.medusaRotateReverse:hover {
+  animation: rotateReverse 3s linear infinite;
 }
 
 .bearImage {
@@ -88,4 +131,13 @@ body {
       font-size: 1rem;
     }
   }
+}
+
+.medusaRotate,
+.medusaRotateReverse {
+  /* border: 1px solid orange; */
+  width: 50px;
+  height: auto;
+  /* filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg)
+    brightness(119%) contrast(119%); */
 }
