@@ -34,26 +34,50 @@ html {
   animation-fill-mode: forwards;
   p {
     /* border: 1px solid white; */
-    color: white;
-    font-family: "Nunito Sans", serif;
+    color: rgb(242, 242, 207);
+    font-family: "Times New Roman", serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
   }
 }
 
+.rollText {
+  /* border: 1px solid red; */
+  width: 90%;
+  position: absolute;
+  bottom: 20px;
+  left: 5%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: red;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+
 .caption {
   /* border: 3px solid green; */
-  display: block;
+  /* display: block; */
   font-family: "Times New Roman", serif;
-  position: absolute;
-  bottom: 10px;
-  left: 10%;
   font-size: 18px;
-  color: black;
+  color: rgb(242, 242, 207);
   text-decoration: none;
   visibility: hidden;
-  font-weight: 600;
+  font-weight: 500;
+  padding-left: 50%;
+  margin: 0;
+  animation: roll 10s linear infinite;
+}
+
+@keyframes roll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .work {
