@@ -56,7 +56,8 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: "Nunito Sans", serif;
+  /* font-family: "Nunito Sans", serif; */
+  font-family: "Times New Roman", serif;
   font-size: 1.4rem;
   padding: 0;
   height: 60%;
@@ -132,6 +133,7 @@ html {
 .medusaRotate {
   height: 8rem;
   animation: rotate 6s linear infinite;
+  filter: invert(1);
 }
 
 @keyframes rotateReverse {
@@ -146,6 +148,7 @@ html {
 .medusaRotateReverse {
   height: 4rem;
   animation: rotateReverse 3s linear infinite;
+  filter: invert(1);
 }
 
 .openEye {
