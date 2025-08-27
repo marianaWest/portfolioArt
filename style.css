@@ -31,16 +31,6 @@ html {
   /* border: 1px solid red; */
 }
 
-/* .logo-name p {
-  font-family: "Nunito Sans", serif;
-  font-size: 1.6rem;
-  font-weight: 300;
-  text-align: right;
-  color: rgb(183, 191, 196);
-  margin: 0;
-  border: 1px solid white;
-} */
-
 .name {
   font-family: "Nunito Sans", serif;
   font-size: 2.5rem;
@@ -56,7 +46,8 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: "Nunito Sans", serif;
+  /* font-family: "Nunito Sans", serif; */
+  font-family: "Times New Roman", serif;
   font-size: 1.4rem;
   padding: 0;
   height: 60%;
@@ -132,6 +123,7 @@ html {
 .medusaRotate {
   height: 8rem;
   animation: rotate 6s linear infinite;
+  filter: invert(1);
 }
 
 @keyframes rotateReverse {
@@ -146,6 +138,7 @@ html {
 .medusaRotateReverse {
   height: 4rem;
   animation: rotateReverse 3s linear infinite;
+  filter: invert(1);
 }
 
 .openEye {
@@ -282,7 +275,6 @@ h2 {
     font-size: 1.4rem;
     font-weight: bold;
     padding: 0;
-    text-shadow: 5px 5px yellow;
   }
 
   h2 {
@@ -402,7 +394,6 @@ h2 {
     font-size: 1.4rem;
     font-weight: bold;
     padding: 0;
-    text-shadow: 5px 5px yellow;
   }
 
   h2 {
@@ -513,10 +504,6 @@ h2 {
     padding: 0;
     margin: 0 auto;
     text-align: center;
-  }
-
-  .links {
-    text-shadow: 5px 5px yellow;
   }
 
   .aboutSection {
