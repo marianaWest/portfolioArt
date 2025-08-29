@@ -9,7 +9,7 @@ const originalBearSrc = bearImage.src;
 
 bearBox.addEventListener("mouseenter", () => {
   backgroundBox.style.backgroundImage =
-    'url("../../assets/medusa/bibbCountyAlabama.jpg")';
+    'url("../../../assets/medusa/bibbCountyAlabama.jpg")';
   caption.style.visibility = "visible";
   rollText.style.visibility = "visible";
   work.style.visibility = "hidden";
@@ -17,7 +17,7 @@ bearBox.addEventListener("mouseenter", () => {
 
 bearBox.addEventListener("mouseleave", () => {
   backgroundBox.style.backgroundImage =
-    'url("../../assets/medusa/fundoMeio.png")';
+    'url("../../../assets/medusa/fundoMeio.png")';
   bearImage.src = originalBearSrc;
   caption.style.visibility = "hidden";
   rollText.style.visibility = "hidden";
