@@ -219,14 +219,20 @@ html {
 }
 
 .arrowRight {
-  width: 5%;
+  width: auto;
   /* border: 1px solid yellow; */
   color: white;
   font-size: 32px;
   position: absolute;
-  top: 40%;
+  top: 45%;
   right: 20px;
   text-align: right;
+  margin: 0;
+  img {
+    margin-right: 0;
+    display: block;
+    filter: invert(1);
+  }
 }
 
 .navigation {
