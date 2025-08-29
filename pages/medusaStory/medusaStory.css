@@ -175,7 +175,7 @@ html {
   border: 4px solid transparent;
   mask: radial-gradient(#000 0 0), radial-gradient(#0000, #000 99%) padding-box;
   mask-composite: exclude;
-  cursor: pointer;
+  /* cursor: pointer; */
   position: relative;
   display: inline-block;
   overflow: hidden;
