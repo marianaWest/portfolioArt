@@ -10,7 +10,7 @@ html {
 .background {
   margin: 0;
   height: 100vh;
-  background-image: url("../../assets/medusa/fundoMeio.png");
+  background-image: url("../../../assets/medusa/fundoMeio.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border: 1px solid transparent;
