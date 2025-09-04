@@ -5,6 +5,7 @@ const caption = document.getElementById("caption");
 const rollText = document.getElementById("rollText");
 const work = document.getElementById("work");
 const dot = document.getElementById("dot");
+const blackout = document.getElementById("blackout");
 const originalBearSrc = bearImage.src;
 
 bearBox.addEventListener("mouseenter", () => {
@@ -34,3 +35,23 @@ function moveDot() {
 }
 
 setInterval(moveDot, 500);
+
+// Fade in blackout before leaving the page
+document.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", (e) => {
+    const url = link.getAttribute("href");
+    if (!url.startsWith("#") && url !== "") {
+      // ignore anchors
+      e.preventDefault();
+      blackout.classList.add("active");
+      setTimeout(() => {
+        window.location.href = url;
+      }, 600); // match transition duration
+    }
+  });
+});
+
+// Fade out blackout when new page loads
+window.addEventListener("load", () => {
+  blackout.classList.remove("active");
+});
