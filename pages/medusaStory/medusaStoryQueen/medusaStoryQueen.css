@@ -1,0 +1,18 @@
+html {
+  font-size: 62.5;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.background {
+  margin: 0;
+  height: 100vh;
+  background-image: url("../../../assets/medusa/Queen.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 1px solid transparent;
+  position: relative;
+}
