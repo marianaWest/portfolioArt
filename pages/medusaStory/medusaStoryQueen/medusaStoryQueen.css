@@ -30,3 +30,76 @@ html {
     text-align: center;
   }
 }
+
+.navigation {
+  /* border: 1px solid rgb(242, 242, 207); */
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 45%;
+  left: 1%;
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 6px;
+  }
+  img {
+    display: inline-block;
+    margin-right: 6px;
+    filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
+      brightness(95%) contrast(92%);
+    svg {
+      fill: #cea878;
+    }
+  }
+  span {
+    display: inline-block;
+    /* font-family: "Nunito Sans", serif; */
+    font-family: "Times New Roman", serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: #cea878;
+    cursor: pointer;
+  }
+}
+.home,
+.back {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.links:hover {
+  .home,
+  .back {
+    opacity: 1;
+    font-style: italic;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.medusaRotate:hover {
+  animation: rotate 6s linear infinite;
+}
+
+@keyframes rotateReverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.medusaRotateReverse:hover {
+  animation: rotateReverse 3s linear infinite;
+}
