@@ -121,3 +121,81 @@ html {
 .medusaRotateReverse:hover {
   animation: rotateReverse 3s linear infinite;
 }
+
+.rollText {
+  /* border: 1px solid red; */
+  width: 100%;
+  position: absolute;
+  bottom: 80px;
+  left: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: black;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  /* visibility: hidden; */
+}
+
+.caption {
+  /* border: 3px solid green; */
+  /* display: block; */
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  color: rgb(242, 242, 207);
+  text-decoration: none;
+  /* visibility: hidden; */
+  font-weight: 500;
+  padding-left: 50%;
+  margin: 0;
+  animation: roll 10s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes roll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.rollText1 {
+  /* border: 1px solid red; */
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: black;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  /* visibility: hidden; */
+}
+
+.caption1 {
+  /* border: 3px solid green; */
+  /* display: block; */
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: rgb(242, 242, 207);
+  text-decoration: none;
+  /* visibility: hidden; */
+  font-weight: 500;
+  padding-left: 50%;
+  margin: 0;
+  animation: roll 14s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes roll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
