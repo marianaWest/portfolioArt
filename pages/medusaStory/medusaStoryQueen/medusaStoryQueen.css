@@ -173,7 +173,7 @@ html {
   height: 36px;
   display: flex;
   align-items: center;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 
 .caption1 {
@@ -183,7 +183,6 @@ html {
   font-size: 16px;
   color: rgb(242, 242, 207);
   text-decoration: none;
-  /* visibility: hidden; */
   font-weight: 500;
   padding-left: 50%;
   margin: 0;
@@ -197,5 +196,17 @@ html {
   }
   100% {
     transform: translateX(-100%);
+  }
+}
+
+.eye1 {
+  width: 80px;
+  position: absolute;
+  top: 36%;
+  left: 15%;
+  cursor: pointer;
+  /* border: 1px solid black; */
+  img {
+    width: 100%;
   }
 }
