@@ -134,7 +134,7 @@ html {
   height: 30px;
   display: flex;
   align-items: center;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 
 .caption {
@@ -144,7 +144,6 @@ html {
   font-size: 18px;
   color: rgb(242, 242, 207);
   text-decoration: none;
-  /* visibility: hidden; */
   font-weight: 500;
   padding-left: 50%;
   margin: 0;
@@ -204,6 +203,18 @@ html {
   position: absolute;
   top: 36%;
   left: 15%;
+  cursor: pointer;
+  /* border: 1px solid black; */
+  img {
+    width: 100%;
+  }
+}
+
+.eye2 {
+  width: 70px;
+  position: absolute;
+  top: 70%;
+  right: 25%;
   cursor: pointer;
   /* border: 1px solid black; */
   img {
