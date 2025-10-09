@@ -198,13 +198,39 @@ html {
   }
 }
 
+
+.rollText2 {
+  width: 100%;
+  position: absolute;
+  bottom: 120px;
+  left: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: black;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+
+.caption2 {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  color: rgb(242, 242, 207);
+  text-decoration: none;
+  font-weight: 500;
+  padding-left: 50%;
+  margin: 0;
+  animation: roll 12s linear infinite;
+  text-transform: uppercase;
+}
+
 .eye1 {
   width: 80px;
   position: absolute;
   top: 36%;
   left: 15%;
   cursor: pointer;
-  /* border: 1px solid black; */
   img {
     width: 100%;
     filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
@@ -218,8 +244,19 @@ html {
   top: 70%;
   right: 25%;
   cursor: pointer;
-  /* border: 1px solid black; */
+  img {
+    width: 100%;
+    filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
+      brightness(95%) contrast(92%);
+  }
+}
 
+.eye3 {
+  width: 120px;
+  position: absolute;
+  top: 17%;
+  right: 36%;
+  cursor: pointer;
   img {
     width: 100%;
     filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)

@@ -1,12 +1,15 @@
 const blackout = document.getElementById("blackout");
 const eye1 = document.getElementById("eye1");
 const eye2 = document.getElementById("eye2");
+const eye3 = document.getElementById("eye3");
 const rollText = document.getElementById("rollText");
 const rollText1 = document.getElementById("rollText1");
+const rollText2 = document.getElementById("rollText2");
 const eyeClosedSrc = "../../../assets/closedEye.svg";
 const eyeOpenSrc = "../../../assets/openEye.svg";
 const eye1Img = document.getElementById("eye1Img");
 const eye2Img = document.getElementById("eye2Img");
+const eye3Img = document.getElementById("eye3Img");
 let eyeOpen = true;
 let currentEyeImgSrc = eyeOpenSrc;
 
@@ -28,6 +31,15 @@ eye2.addEventListener("click", () => {
   eyeOpen
     ? (rollText1.style.visibility = "visible")
     : (rollText1.style.visibility = "hidden");
+  eyeOpen = !eyeOpen;
+  return eyeOpen;
+});
+
+eye3.addEventListener("click", () => {
+  eyeOpen ? (eye3Img.src = eyeClosedSrc) : (eye3Img.src = eyeOpenSrc);
+  eyeOpen
+    ? (rollText2.style.visibility = "visible")
+    : (rollText2.style.visibility = "hidden");
   eyeOpen = !eyeOpen;
   return eyeOpen;
 });
