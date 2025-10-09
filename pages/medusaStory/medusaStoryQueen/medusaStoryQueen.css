@@ -198,7 +198,6 @@ html {
   }
 }
 
-
 .rollText2 {
   width: 100%;
   position: absolute;
@@ -231,6 +230,7 @@ html {
   top: 36%;
   left: 15%;
   cursor: pointer;
+  z-index: 2;
   img {
     width: 100%;
     filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
@@ -244,6 +244,7 @@ html {
   top: 70%;
   right: 25%;
   cursor: pointer;
+  z-index: 2;
   img {
     width: 100%;
     filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
@@ -257,6 +258,7 @@ html {
   top: 17%;
   right: 36%;
   cursor: pointer;
+  z-index: 2;
   img {
     width: 100%;
     filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
