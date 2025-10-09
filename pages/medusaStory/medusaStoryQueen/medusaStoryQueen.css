@@ -68,9 +68,9 @@ html {
     margin-right: 6px;
     filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
       brightness(95%) contrast(92%);
-    svg {
+    /* svg {
       fill: #cea878;
-    }
+    } */
   }
   span {
     display: inline-block;
@@ -207,6 +207,8 @@ html {
   /* border: 1px solid black; */
   img {
     width: 100%;
+    filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
+      brightness(95%) contrast(92%);
   }
 }
 
@@ -217,7 +219,10 @@ html {
   right: 25%;
   cursor: pointer;
   /* border: 1px solid black; */
+
   img {
     width: 100%;
+    filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
+      brightness(95%) contrast(92%);
   }
 }
