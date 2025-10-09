@@ -7,6 +7,7 @@ const eyeClosedSrc = "../../../assets/closedEye.svg";
 const eyeOpenSrc = "../../../assets/openEye.svg";
 const eye1Img = document.getElementById("eye1Img");
 const eye2Img = document.getElementById("eye2Img");
+let eyeOpen = true;
 let currentEyeImgSrc = eyeOpenSrc;
 
 window.addEventListener("load", () => {
@@ -15,7 +16,9 @@ window.addEventListener("load", () => {
 
 eye1.addEventListener("click", () => {
   rollText1.style.visibility = "visible";
-  eye1Img.src = eyeClosedSrc;
+  eyeOpen = !eyeOpen;
+  console.log(eyeOpen);
+  eyeOpen ? (eye1Img.src = eyeClosedSrc) : (eye1Img.src = eyeOpenSrc);
 });
 
 eye2.addEventListener("click", () => {
