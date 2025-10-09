@@ -15,13 +15,19 @@ window.addEventListener("load", () => {
 });
 
 eye1.addEventListener("click", () => {
-  rollText1.style.visibility = "visible";
-  eyeOpen = !eyeOpen;
-  console.log(eyeOpen);
   eyeOpen ? (eye1Img.src = eyeClosedSrc) : (eye1Img.src = eyeOpenSrc);
+  eyeOpen
+    ? (rollText.style.visibility = "visible")
+    : (rollText.style.visibility = "hidden");
+  eyeOpen = !eyeOpen;
+  return eyeOpen;
 });
 
 eye2.addEventListener("click", () => {
-  rollText.style.visibility = "visible";
-  eye2Img.src = eyeClosedSrc;
+  eyeOpen ? (eye2Img.src = eyeClosedSrc) : (eye2Img.src = eyeOpenSrc);
+  eyeOpen
+    ? (rollText1.style.visibility = "visible")
+    : (rollText1.style.visibility = "hidden");
+  eyeOpen = !eyeOpen;
+  return eyeOpen;
 });
