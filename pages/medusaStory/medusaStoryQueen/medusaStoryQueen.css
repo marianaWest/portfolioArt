@@ -68,9 +68,9 @@ html {
     margin-right: 6px;
     filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
       brightness(95%) contrast(92%);
-    svg {
+    /* svg {
       fill: #cea878;
-    }
+    } */
   }
   span {
     display: inline-block;
@@ -120,4 +120,148 @@ html {
 
 .medusaRotateReverse:hover {
   animation: rotateReverse 3s linear infinite;
+}
+
+.rollText {
+  /* border: 1px solid red; */
+  width: 100%;
+  position: absolute;
+  bottom: 80px;
+  left: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: black;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+
+.caption {
+  /* border: 3px solid green; */
+  /* display: block; */
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  color: rgb(242, 242, 207);
+  text-decoration: none;
+  font-weight: 500;
+  padding-left: 50%;
+  margin: 0;
+  animation: roll 10s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes roll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.rollText1 {
+  /* border: 1px solid red; */
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: black;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+
+.caption1 {
+  /* border: 3px solid green; */
+  /* display: block; */
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: rgb(242, 242, 207);
+  text-decoration: none;
+  font-weight: 500;
+  padding-left: 50%;
+  margin: 0;
+  animation: roll 14s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes roll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.rollText2 {
+  width: 100%;
+  position: absolute;
+  bottom: 120px;
+  left: 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: black;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+
+.caption2 {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  color: rgb(242, 242, 207);
+  text-decoration: none;
+  font-weight: 500;
+  padding-left: 50%;
+  margin: 0;
+  animation: roll 12s linear infinite;
+  text-transform: uppercase;
+}
+
+.eye1 {
+  width: 80px;
+  position: absolute;
+  top: 36%;
+  left: 15%;
+  cursor: pointer;
+  z-index: 2;
+  img {
+    width: 100%;
+    filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
+      brightness(95%) contrast(92%);
+  }
+}
+
+.eye2 {
+  width: 70px;
+  position: absolute;
+  top: 70%;
+  right: 25%;
+  cursor: pointer;
+  z-index: 2;
+  img {
+    width: 100%;
+    filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
+      brightness(95%) contrast(92%);
+  }
+}
+
+.eye3 {
+  width: 120px;
+  position: absolute;
+  top: 17%;
+  right: 36%;
+  cursor: pointer;
+  z-index: 2;
+  img {
+    width: 100%;
+    filter: invert(82%) sepia(29%) saturate(407%) hue-rotate(2deg)
+      brightness(95%) contrast(92%);
+  }
 }
