@@ -1,0 +1,147 @@
+.workSection {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 2vw;
+  border: 1px solid transparent;
+  font-family: "Nunito Sans", sans-serif;
+  border: 1px solid blue;
+}
+
+.workSection h2 {
+  text-align: left;
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.workSection p {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 80vh;
+  border: 1px solid red;
+}
+
+.worksNav {
+  border: 1px solid green;
+  width: 20%;
+  height: 80vh;
+  display: flex;
+  /* overflow-y: scroll;
+  overflow-x: hidden; */
+  flex-direction: column;
+  justify-content: space-between;
+  .worksSeries {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    /* border: 3px solid orange; */
+    a {
+      display: inline-block;
+      color: rgb(99, 99, 99);
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 22px;
+      margin: 0;
+    }
+  }
+}
+
+.gallery {
+  width: 78%;
+  height: 100%;
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 4px solid purple; */
+}
+
+.galleryImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+  margin-bottom: 40px;
+  height: 100%;
+  object-fit: cover;
+  /* border: 1px solid green; */
+  img {
+    display: block;
+    height: 500px;
+  }
+}
+
+.arrow {
+  height: 3.5rem;
+  padding-top: 10px;
+  border: 1px solid green;
+  a {
+    color: grey;
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  border: 2px solid purple;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+}
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: 10%;
+  margin-left: 44%;
+  padding: 20px;
+  border: 1px solid green;
+  border-radius: 5px;
+  width: 30%;
+  p {
+    color: rgb(214, 213, 213);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .seeWorks {
+    color: rgb(214, 213, 213);
+    font-family: "Nunito Sans", sans-serif;
+    cursor: pointer;
+    border: 1px solid yellow;
+  }
+}
+
+.close {
+  cursor: pointer;
+  color: rgb(214, 213, 213);
+}
+
+@media all and (min-width: 1300px) {
+  .galleryImg {
+    img {
+      height: 800px;
+    }
+  }
+  .worksNav {
+    .worksSeries {
+      a {
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+}
