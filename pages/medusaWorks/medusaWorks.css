@@ -36,11 +36,9 @@
   img {
     display: inline-block;
     margin-right: 6px;
-    filter: invert(93%) sepia(11%) saturate(355%) hue-rotate(22deg)
-      brightness(95%) contrast(89%);
-    svg {
-      fill: rgb(242, 242, 207);
-    }
+    /* filter: invert(93%) sepia(11%) saturate(355%) hue-rotate(22deg)
+      brightness(95%) contrast(89%); */
+    opacity: 0.5;
   }
   span {
     display: inline-block;
@@ -48,7 +46,7 @@
     font-family: "Times New Roman", serif;
     font-size: 1rem;
     text-decoration: none;
-    color: rgb(242, 242, 207);
+    color: rgba(36, 35, 38, 0.6);
     cursor: pointer;
   }
 }
